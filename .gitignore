@@ -1,0 +1,8 @@
+logs/
+*.tar.gz
+*.log
+/tmp/
+var/
+.DS_Store
+*.swp
+.env

@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  asterisk:
+    build: .
+    container_name: asterisk
+    network_mode: "host"
+    volumes:
+      - ./configs:/etc/asterisk  # Конфиги
+      - ./logs:/var/log/asterisk  # Логи
+    env_file:
+      - .env
+    restart: unless-stopped
