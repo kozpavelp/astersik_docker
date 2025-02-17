@@ -1,7 +1,0 @@
-libedit-dev=3.1-20230828-1build1
-libffi-dev=3.4.6-1build1
-libjansson-dev=2.14-2build2
-libldns-dev=1.8.3-2build1
-libnewt-dev=0.52.24-2ubuntu2
-libssl-dev=3.0.13-0ubuntu3.4
-libxml2-dev=2.9.14+dfsg-1.3ubuntu3.1

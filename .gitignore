@@ -6,3 +6,4 @@ var/
 .DS_Store
 *.swp
 .env
+postgres-data/
