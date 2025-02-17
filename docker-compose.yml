@@ -5,10 +5,10 @@ services:
     ports:
       - "${SIP_PORT}:5060/udp"
       - "${SIP_TLS_PORT}:5061/tcp"
-      - "${RTP_PORT_RANGE}"
-      - "${AMI_PORT}:5038"
-      - "${ARI_PORT}:8088"
-      - "${WEBRTC_PORT}:8089"
+      - "${RTP_PORT_RANGE}:${RTP_PORT_RANGE}/udp"
+      - "${AMI_PORT}:5038/tcp"
+      - "${ARI_PORT}:8088/tcp"
+      - "${WEBRTC_PORT}:8089/tcp"
     volumes:
       - ./configs:/etc/asterisk
       - ./odbc/odbc.ini:/etc/odbc.ini
