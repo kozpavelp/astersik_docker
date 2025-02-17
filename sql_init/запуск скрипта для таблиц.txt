@@ -1,0 +1,4 @@
+запуск скрипта для таблиц, если сам не запустился
+
+docker-compose exec postgres psql -U asterisk -d asteriskdb -f /docker-entrypoint-initdb.d/tables.sql
+
