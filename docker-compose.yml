@@ -12,6 +12,7 @@ services:
     volumes:
       - ./configs:/etc/asterisk
       - ./odbc/odbc.ini:/etc/odbc.ini
+      - ./odbc/odbcinst.ini:/etc/odbcinst.ini  # Файл odbcinst.ini
       - ./logs:/var/log/asterisk
     env_file:
       - .env

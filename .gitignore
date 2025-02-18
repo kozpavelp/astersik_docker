@@ -7,3 +7,5 @@ var/
 *.swp
 .env
 postgres-data/
+.idea/
+
